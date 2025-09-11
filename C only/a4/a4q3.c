@@ -16,7 +16,10 @@ int main()
     else if(b>a && b>c && b<d || b>d && b>c && b<a || b<c && b>d && b>a){
         printf("b is the second largest number");
     }
-    else{
+    else if(c>a && c>b && c<d || c>b && c>d && c<a || c>d && c>a && c<d){
         printf("c is the second largest number");
+    }
+    else{
+        printf("d is the second largest number");
     }
 }
