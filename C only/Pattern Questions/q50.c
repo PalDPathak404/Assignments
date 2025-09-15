@@ -13,4 +13,4 @@ int main()
     }
     return 0;
 }
-//Doubt how you got the formula and how it works
+//review the formula you used here

@@ -16,4 +16,4 @@ int main() {
 		printf("\n");
 	}
 }
-// Doubt = why use this formula huh??
+//review the formula you used here

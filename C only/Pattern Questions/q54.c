@@ -35,4 +35,4 @@ int main()
     }
     return 0;
 }
-//Doubt = How the fuck you got that just get to the reason asap you don't know how you made it and just made it. 
+//review the conditions
