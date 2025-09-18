@@ -1,13 +1,20 @@
 #include <stdio.h>
 int main() {
-	for(int i=1; i<=5; i++) {
-		for(int j=1; j<=5; j++) {
-			if(i ==3 || j ==3) {
+	int n;
+	scanf("%d",&n);
+	for(int i=1; i<=n; i++) {
+		for(int j=1; j<=n; j++) {
+			if(n % 2 != 0){
+			if(i == (n+1 )/2 || j == (n+1) /2) {
 				printf("*");
 			}
 			else {
 				printf(" ");
 			}
+		}
+		else{
+			printf("Enter an Odd Number only");
+		}
 		}
 
 		printf("\n");
