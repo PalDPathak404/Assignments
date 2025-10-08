@@ -4,12 +4,12 @@ int main()
 {
     int n;
     scanf("%d",&n);
+    int counta = 64;
+    int countb = 64;
     for(int i=1;i<=n;i++){
         for(int j=1;j<=n;j++){
-            printf("%d ",(i + j -1) % 2);
+            printf("%c%c ",counta+i,countb+j);
         }
         printf("\n");
     }
-    return 0;
 }
-//starts with 0 instead of 1

@@ -16,4 +16,4 @@ int main() {
 		printf("\n");
 	}
 }
-// not fixed but left complete that input code for this too
+// not fixed but left complete that input code for this to

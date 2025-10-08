@@ -6,10 +6,9 @@ int main()
     scanf("%d",&n);
     for(int i=1;i<=n;i++){
         for(int j=1;j<=n;j++){
-            printf("%d ",(i + j -1) % 2);
+            int printer = j*i;
+            printf("%d ",printer*printer);
         }
         printf("\n");
     }
-    return 0;
 }
-//starts with 0 instead of 1
