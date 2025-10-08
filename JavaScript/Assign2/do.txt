@@ -1,0 +1,9 @@
+prime
+armstrong
+fibonacci
+operations in array
+strong num
+kaprekar num
+palindrome
+reverse a num
+imp in pattern
